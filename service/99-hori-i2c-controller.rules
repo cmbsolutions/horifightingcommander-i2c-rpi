@@ -1,0 +1,1 @@
+ACTION=="add", SUBSYSTEMS=="input", ATTRS{name}=="Hori I²C Fighting Commander", ENV{ID_INPUT_KEY}=""

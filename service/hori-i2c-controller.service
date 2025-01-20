@@ -1,0 +1,13 @@
+[Unit]
+Description=Hori I2C Fighting Commander Service
+
+[Service]
+ExecStart=/usr/local/bin/i2c-hori-controller
+WorkingDirectory=/
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
